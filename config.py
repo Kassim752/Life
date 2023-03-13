@@ -7,16 +7,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("18641113"))
+API_HASH = getenv("bc5fea81e7bf9f3c0784a0a7d35f9c71")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6093398509:AAHFx1r9qJrOviEZUKnVcm_2g15IU298cS0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("mongodb+srv://marvel:marvel@marvelcloud0.gse7lpr.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("-1001755297039"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐋ɪғᴇ 𝐋ɪɴᴇ 𝐌ᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5465568465").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lifelineofficialchannle420")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TaMilChAtLiFeLiNeGrOuP")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQBbY_4miqzhkx5FOVZQVvZnEN5LWIgfIP8uxk-cEO0bbWMD-s7T3TEsm_8DRuplHn9Q1b2t6YWN0q83lB3lclBe1Ja7hijBZ93uobmrJYVSWJjAjmS_KBgLPvLYxYK1OqZ5hdSqxVPh5d0FN2gzdvElvL21acpJK_D07PXLDUdJOtaHxbWsftUwR71Z7hkR44ucErLSlmD7OTFqMVq_YIAlBXLsglLnlEtQt-TULP3qX87X-7_hnuR5kUJOsGKLrrzJqwrA3yerPPHwlFQqlMoGo3Yn6CBEC_2GtKxSCAyMPjJi-2BMM_ydKXggUGh2H40Vy8VIWfYUN7YWozGVWTxoAAAAAXdXCY8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/0693276d9efea6e926b35.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
